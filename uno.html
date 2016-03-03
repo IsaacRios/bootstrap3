@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>page JS</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Fuentes google -->
+	<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Poiret+One&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+	<script type="text/javascript">
+		var user = "pinche chai";
+		alert('Hola ' + user);
+	</script>
+	<script type="text/javascript" charset="utf-8">
+			var canvas = document.getElementById("miCanvas");
+			var ctx = canvas.getContext("2d");
+			ctx.fillRect(0,0,20,20);
+		</script>
+</head>
+<body>
+<header>
+	<nav>
+		<ul>
+			<li><a href="#">uno1</a></li>
+			<li><a href="#">dos 2</a></li>
+			<li><a href="#">tres3</a></li>
+			<li><a href="#">cuatro4</a></li>
+		</ul>
+	</nav>
+</header>
+<section>
+	<div class="row">
+		<div class="col-md-3">
+		<h3>Canvas</h3>
+			<canvas id="miCanvas" with="300" height="400">Este navegador no soporte tanta tecnología</canvas>
+		
+		</div>
+		<div class="col-md-3">
+		<h3>Audio</h3>		
+		<blockquote>
+			auto, metadata, none
+		</blockquote>
+			<audio controls="controls" autoplay="autoplay" loop="loop" preload="">
+		<source src="Omen.mp3" type="audio/mp3" />
+		<source src="Omen.ogg" type="audio/ogg" />		
+	</audio>
+		</div>
+		<div class="col-md-3">
+			<details>
+				Aqui van los detalles
+			</details>
+			<details>
+			<summary>mira más detalles</summary>
+			Más detalles y detalles
+			</details>
+			<details open>
+				<summary>Otros detalles</summary>
+			<mark>detalles visibles</mark>
+			</details>
+		</div>
+		<div class="col-md-3">
+			<h3>Figure</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad natus impedit beatae earum praesentium quibusdam autem reiciendis placeat voluptatibus cumque voluptates temporibus corporis error qui, commodi ab ullam deleniti maxime.
+			<figure>
+				<img src="images/images.jpg" alt="unaimagen">
+				<figcaption>Logo de la imagen</figcaption>		
+			</figure>
+			</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4"></div>
+		<div class="col-md-4"></div>
+		<div class="col-md-4"></div>
+	</div>
+</section>
+	
+	
+	
+</body>
+</html>
